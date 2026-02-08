@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Evaluation Tool - ChatGPT vs Google AI Mode</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>AI Evaluation Tool</h1>
+            <p class="subtitle">ChatGPT vs Google AI Mode - 200 Query Comparison</p>
+        </header>
+
+        <!-- Progress Section -->
+        <section class="progress-section">
+            <div class="progress-header">
+                <h2>Progress</h2>
+                <button id="refreshBtn" class="btn btn-secondary">Refresh</button>
+            </div>
+
+            <div class="progress-stats">
+                <div class="stat-card">
+                    <div class="stat-value" id="totalQueries">0</div>
+                    <div class="stat-label">Total Queries</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="chatgptDone">0</div>
+                    <div class="stat-label">ChatGPT Responses</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="googleDone">0</div>
+                    <div class="stat-label">Google AI Responses</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="scoredCount">0</div>
+                    <div class="stat-label">Scored</div>
+                </div>
+                <div class="stat-card highlight">
+                    <div class="stat-value" id="completeCount">0</div>
+                    <div class="stat-label">Fully Complete</div>
+                </div>
+            </div>
+
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="progress-text" id="progressText">0% Complete</div>
+        </section>
+
+        <!-- Control Panel -->
+        <section class="control-panel">
+            <h2>Actions</h2>
+
+            <div class="action-group">
+                <h3>1. Run ChatGPT Batch</h3>
+                <p>Automatically query ChatGPT for the next batch of questions</p>
+                <div class="button-group">
+                    <button id="runBatchBtn" class="btn btn-primary">
+                        Run ChatGPT Batch (20 queries)
+                    </button>
+                    <select id="batchSize" class="batch-size-select">
+                        <option value="10">10 queries</option>
+                        <option value="20" selected>20 queries</option>
+                        <option value="50">50 queries</option>
+                    </select>
+                </div>
+                <div id="batchProgress" class="batch-progress" style="display: none;">
+                    <div class="spinner"></div>
+                    <span id="batchProgressText">Processing...</span>
+                </div>
+            </div>
+
+            <div class="action-group">
+                <h3>2. Enter Google AI Response</h3>
+                <p>Manually enter responses from Google AI Mode</p>
+                <button id="enterGoogleBtn" class="btn btn-primary">
+                    Enter Google AI Response
+                </button>
+            </div>
+
+            <div class="action-group">
+                <h3>3. Score Responses</h3>
+                <p>Evaluate and score query responses using stratified sampling</p>
+                <div id="thresholdMessage" style="margin-bottom: 15px; padding: 10px; background: #FFF3CD; border-left: 4px solid #F39C12; border-radius: 4px;">
+                    <strong>Minimum 50 responses required from each platform</strong><br>
+                    <span id="thresholdProgress">ChatGPT: 0/50 | Google AI: 0/50</span>
+                </div>
+                <button id="scoreBtn" class="btn btn-primary" disabled>
+                    Score Responses (Stratified Sample)
+                </button>
+                <span id="scoringCount" class="badge" style="display: none;">0 queries need scoring</span>
+            </div>
+
+            <div class="action-group">
+                <h3>4. Export Results</h3>
+                <p>Generate comprehensive Excel report</p>
+                <button id="exportBtn" class="btn btn-success">
+                    Export Report
+                </button>
+            </div>
+        </section>
+
+        <!-- Google AI Entry Modal -->
+        <div id="googleModal" class="modal">
+            <div class="modal-content large">
+                <div class="modal-header">
+                    <h2>Enter Google AI Mode Response</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="query-info">
+                        <div class="query-header">
+                            <strong>Query <span id="currentQueryId"></span></strong>
+                            <span class="query-meta" id="queryMeta"></span>
+                        </div>
+                        <div class="query-text" id="queryText"></div>
+                        <button id="copyQueryBtn" class="btn btn-small">Copy Query</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="googleResponse">Google AI Mode Response:</label>
+                        <textarea
+                            id="googleResponse"
+                            rows="15"
+                            placeholder="Paste the response from Google AI Mode here..."></textarea>
+                        <div class="auto-save-indicator" id="autoSaveIndicator" style="display: none;">
+                            Auto-saved
+                        </div>
+                    </div>
+
+                    <div class="modal-actions">
+                        <button id="saveGoogleBtn" class="btn btn-primary">
+                            Save & Next
+                        </button>
+                        <button id="skipQueryBtn" class="btn btn-secondary">
+                            Skip
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scoring Modal -->
+        <div id="scoringModal" class="modal">
+            <div class="modal-content xlarge">
+                <div class="modal-header">
+                    <h2>Score Responses</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="query-info">
+                        <div class="query-header">
+                            <strong>Query <span id="scoreQueryId"></span></strong>
+                            <span class="query-meta" id="scoreQueryMeta"></span>
+                        </div>
+                        <div class="query-text" id="scoreQueryText"></div>
+                    </div>
+
+                    <div class="responses-comparison">
+                        <div class="response-column">
+                            <h3>ChatGPT</h3>
+                            <div class="response-text" id="chatgptResponse"></div>
+                        </div>
+                        <div class="response-column">
+                            <h3>Google AI Mode</h3>
+                            <div class="response-text" id="googleResponseDisplay"></div>
+                        </div>
+                    </div>
+
+                    <div class="scoring-form">
+                        <h3>Evaluation Scores</h3>
+
+                        <div class="score-grid">
+                            <!-- ChatGPT Scores -->
+                            <div class="score-section">
+                                <h4>ChatGPT</h4>
+
+                                <div class="score-item">
+                                    <label>Relevance (1-5)</label>
+                                    <input type="range" id="chatgptRelevance" min="1" max="5" value="3">
+                                    <span class="score-value">3</span>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>Completeness (1-5)</label>
+                                    <input type="range" id="chatgptCompleteness" min="1" max="5" value="3">
+                                    <span class="score-value">3</span>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>Clarity (1-5)</label>
+                                    <input type="range" id="chatgptSourceQuality" min="1" max="5" value="3">
+                                    <span class="score-value">3</span>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>
+                                        <input type="checkbox" id="chatgptIntent">
+                                        Intent Understood
+                                    </label>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>
+                                        <input type="checkbox" id="chatgptFollowups">
+                                        Follow-ups Needed
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Google AI Scores -->
+                            <div class="score-section">
+                                <h4>Google AI Mode</h4>
+
+                                <div class="score-item">
+                                    <label>Relevance (1-5)</label>
+                                    <input type="range" id="googleRelevance" min="1" max="5" value="3">
+                                    <span class="score-value">3</span>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>Completeness (1-5)</label>
+                                    <input type="range" id="googleCompleteness" min="1" max="5" value="3">
+                                    <span class="score-value">3</span>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>Clarity (1-5)</label>
+                                    <input type="range" id="googleSourceQuality" min="1" max="5" value="3">
+                                    <span class="score-value">3</span>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>
+                                        <input type="checkbox" id="googleIntent">
+                                        Intent Understood
+                                    </label>
+                                </div>
+
+                                <div class="score-item">
+                                    <label>
+                                        <input type="checkbox" id="googleFollowups">
+                                        Follow-ups Needed
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="scoreNotes">Notes (optional):</label>
+                            <textarea id="scoreNotes" rows="3" placeholder="Any additional observations..."></textarea>
+                        </div>
+
+                        <div class="modal-actions">
+                            <button id="submitScoresBtn" class="btn btn-primary">
+                                Submit Scores & Next
+                            </button>
+                            <button id="skipScoringBtn" class="btn btn-secondary">
+                                Skip
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistics Sidebar -->
+        <aside id="statsSidebar" class="stats-sidebar">
+            <div class="sidebar-header">
+                <h3>Statistics</h3>
+                <button id="closeSidebar" class="close-btn">&times;</button>
+            </div>
+            <div class="sidebar-content" id="statsContent">
+                <p>Loading statistics...</p>
+            </div>
+        </aside>
+
+        <!-- Status Messages -->
+        <div id="statusMessages" class="status-messages"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

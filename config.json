@@ -1,0 +1,10 @@
+{
+  "batch_size": 20,
+  "model": "gpt-4o-mini-search-preview",
+  "temperature": 0.7,
+  "max_tokens": 2000,
+  "rate_limit_delay": 1.0,
+  "retry_attempts": 3,
+  "retry_delay": 2.0,
+  "model_note": "Using gpt-4o-mini-search-preview: Built-in web search enabled for real-time information retrieval"
+}

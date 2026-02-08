@@ -1,0 +1,1202 @@
+[
+  {
+    "query": "What are the health benefits of intermittent fasting for adults over 40?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Explain the difference between machine learning and deep learning with examples",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What caused the 2008 financial crisis and what were its long-term effects?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How does CRISPR gene editing technology work at the molecular level?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the main features of the James Webb Space Telescope?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What is the current scientific consensus on climate change causes?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How do mRNA vaccines work compared to traditional vaccines?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the key principles of sustainable architecture?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Explain the differences between Keynesian and Austrian economics",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the nutritional differences between plant-based and animal proteins?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How does quantum computing differ from classical computing?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What is the history and cultural significance of the Silk Road?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the main causes and symptoms of burnout syndrome?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How does blockchain technology enable cryptocurrency transactions?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the psychological effects of social media use on teenagers?",
+    "category": "Informational",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "best laptop",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "how to lose weight",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "crypto",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "is coffee good",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "python vs javascript",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "climate change facts",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "what is AI",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "meditation benefits",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "electric cars",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "how to invest",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "quantum physics",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "sleep better",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "keto diet",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "remote work",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "memory improvement",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "stress management",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "blockchain explained",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "yoga for beginners",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "intermittent fasting",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "sustainable living",
+    "category": "Informational",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "What's the best way to learn?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "How much does it cost?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Is this safe?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "When should I start?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Which one is better?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Can you explain the process?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What are the side effects?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "How long does it take?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Is it worth it?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What do experts say?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "How does it compare?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What are the requirements?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Is there a better alternative?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What's the latest research?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "How do I know if it's working?",
+    "category": "Informational",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Best noise-canceling headphones under $300 for frequent travelers in 2025",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Where can I buy organic skincare products with free shipping to Canada?",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare prices for iPhone 16 Pro across major retailers",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Best budget gaming laptop with RTX 4060 GPU under $1200",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Top-rated standing desks for home office under $500",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Where to buy sustainable running shoes in Vancouver?",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Best air purifier for allergies under $200 with HEPA filter",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare Tesla Model 3 vs BMW i4 pricing and features",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Affordable ergonomic office chairs with lumbar support under $400",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Best meal kit delivery services in British Columbia for vegetarians",
+    "category": "Transactional",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "cheap headphones",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "where to buy laptop",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "best phone 2025",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "affordable furniture",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "gaming setup",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "running shoes deals",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "buy vitamins",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "cheap flights",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "hotel deals",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "camera for photography",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "monitor for gaming",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "coffee maker",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "vacuum cleaner",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "mattress recommendations",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "winter jacket",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "smart watch",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "blender price",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "electric toothbrush",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "luggage set",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "kitchen knife",
+    "category": "Transactional",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "Where can I get the best deal?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Is there a discount available?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What's a good brand?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Should I buy now or wait?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Which model is recommended?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Where do people usually buy this?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Is this the right price?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What are others buying?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Is there something better?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Where's the cheapest place?",
+    "category": "Transactional",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Compare Google Gemini vs ChatGPT-4 for code generation tasks",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the pros and cons of solar panels vs wind turbines for home energy?",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "iPhone 16 vs Samsung Galaxy S25: which has better camera performance?",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare tax implications of RRSP vs TFSA for retirement savings in Canada",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "React vs Vue.js: which is better for building enterprise web applications?",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare effectiveness of cognitive behavioral therapy vs medication for anxiety",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "MacBook Air M3 vs Dell XPS 13: which offers better value for students?",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Renting vs buying a home in Vancouver: financial analysis for 2025",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare nutritional benefits of Mediterranean diet vs paleo diet",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "AWS vs Azure vs Google Cloud: which is best for startups?",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Electric vehicle vs hybrid vs gas car: total cost of ownership analysis",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare Spotify vs Apple Music vs YouTube Music features and pricing",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Remote work vs office work: productivity and wellbeing comparison",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Index funds vs ETFs vs mutual funds: which is best for beginners?",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare French press vs pour-over vs espresso machine coffee quality",
+    "category": "Comparative",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "iOS vs Android",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "Mac vs PC",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "Netflix vs Disney+",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "gas vs electric",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "freelance vs full-time",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "morning vs evening workout",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "tea vs coffee",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "cardio vs weights",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "city vs suburbs",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "online vs in-person learning",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "cats vs dogs",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "summer vs winter vacation",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "book vs audiobook",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "organic vs regular food",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "startup vs corporate job",
+    "category": "Comparative",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "Which one should I choose?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What's the difference between them?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Which is more popular?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What do most people prefer?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Is one better than the other?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Which has better reviews?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What are the main differences?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Which is more reliable?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What would you recommend?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Which gives better results?",
+    "category": "Comparative",
+    "quality": "Ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "Step-by-step guide to set up a home network with WiFi 6 router",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How to create a professional LinkedIn profile that attracts recruiters",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Complete guide to filing taxes in Canada as a freelancer for 2025",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How to train for a half marathon in 12 weeks for beginners",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Step-by-step process to start an LLC in British Columbia",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How to build a diversified investment portfolio with $10,000",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Guide to troubleshooting common WiFi connectivity issues at home",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How to create engaging Instagram Reels for business marketing",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Complete process for applying to Canadian universities as an international student",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How to negotiate a job offer salary and benefits effectively",
+    "category": "Procedural",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "how to code",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "learn Spanish fast",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "start a business",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "make money online",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "build muscle",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "improve credit score",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "grow Instagram followers",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "bake bread",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "meditate properly",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "write a resume",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "take better photos",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "save money",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "network effectively",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "study efficiently",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "wake up early",
+    "category": "Procedural",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "how do i fix my computr screen",
+    "category": "Procedural",
+    "quality": "Typos/Informal",
+    "intent_clarity": "Medium"
+  },
+  {
+    "query": "whats the best way too learn guitar",
+    "category": "Procedural",
+    "quality": "Typos/Informal",
+    "intent_clarity": "Medium"
+  },
+  {
+    "query": "how can i loose weight quikly",
+    "category": "Procedural",
+    "quality": "Typos/Informal",
+    "intent_clarity": "Medium"
+  },
+  {
+    "query": "were can i find good recepies",
+    "category": "Procedural",
+    "quality": "Typos/Informal",
+    "intent_clarity": "Medium"
+  },
+  {
+    "query": "how to make my phone baterry last longer",
+    "category": "Procedural",
+    "quality": "Typos/Informal",
+    "intent_clarity": "Medium"
+  },
+  {
+    "query": "What are the latest developments in the 2025 US presidential election?",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Current stock price and performance of NVIDIA in December 2025",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Latest news on artificial intelligence regulation in the European Union",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What is the current inflation rate in Canada as of December 2025?",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Recent updates on SpaceX Starship development and launch schedule",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Latest COVID-19 variants and vaccine recommendations for winter 2025",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Current status of the war in Ukraine as of December 2025",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Recent breakthrough in quantum computing announced in 2025",
+    "category": "Real-time/Current",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "latest news",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "stock market today",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "weather this week",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "sports scores",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "what's trending",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "new movies",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "tech news",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "crypto prices",
+    "category": "Real-time/Current",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "Is it going to rain tomorrow?",
+    "category": "Real-time/Current",
+    "quality": "Time-sensitive ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What happened yesterday?",
+    "category": "Real-time/Current",
+    "quality": "Time-sensitive ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "When is the next holiday?",
+    "category": "Real-time/Current",
+    "quality": "Time-sensitive ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "What's the score?",
+    "category": "Real-time/Current",
+    "quality": "Time-sensitive ambiguous",
+    "intent_clarity": "Very Low"
+  },
+  {
+    "query": "If I invest $50,000 in an index fund with 7% average annual return, how much will I have in 30 years accounting for inflation?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the environmental, economic, and social impacts of transitioning to renewable energy in developing countries?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare the career trajectories, salary potential, and job satisfaction of software engineers vs data scientists in 2025",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What would be the health, financial, and lifestyle implications of moving from Toronto to Vancouver?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Analyze the relationship between interest rates, housing prices, and consumer spending in Canada",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the interconnected causes of the global semiconductor shortage and its impact on various industries?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "How do different parenting styles affect child development across cognitive, emotional, and social domains?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the cascading effects of remote work on urban planning, commercial real estate, and public transportation?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Compare the long-term effects of different dietary approaches on metabolic health, longevity, and disease prevention",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the geopolitical, economic, and technological factors driving AI development globally?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "Analyze the relationship between education level, income inequality, and social mobility in developed countries",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "What are the interconnected challenges and solutions for sustainable urban development in megacities?",
+    "category": "Complex Multi-hop",
+    "quality": "Well-formed",
+    "intent_clarity": "High"
+  },
+  {
+    "query": "best career path",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "how to be successful",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "is college worth it",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "should I change jobs",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "best place to live",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "how to be happy",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "what should I invest in",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  },
+  {
+    "query": "best way to retire early",
+    "category": "Complex Multi-hop",
+    "quality": "Poorly-formed",
+    "intent_clarity": "Low"
+  }
+]
